@@ -49,7 +49,6 @@ class NewCustomer extends React.Component<{}, CustomersState> {
         return (
             <div>
                 <Form elements={Object.keys(customerHeader).map((key : string) => {
-                    // TODO remove id from list
                     return ({
                         label: (customerHeader as any)[key],
                         value: (this.state.customer as any)[key],
