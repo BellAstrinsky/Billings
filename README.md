@@ -12,11 +12,16 @@ npm install
 ```
 
 ## run
+inside Client directory run:
 ```
 npm start 
 ```
+inside Server directory run:
+```
+node app.js
+```
 
-## TODO
+### TODO
 1. add input valudations, alerts on create/update/delete success
 2. remove id textfield from new transaction
 3. write node in TS not JS
